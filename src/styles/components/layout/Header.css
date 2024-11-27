@@ -1,0 +1,101 @@
+/* Fuente principal */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-color: lightblue;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  position: relative; /* Para posicionar el botón en la esquina superior derecha */
+  text-align: center; /* Centrar el contenido */
+}
+
+header .holder {
+  display: inline-block; /* Para centrar el contenido dentro del header */
+}
+
+header .holder img {
+  border-radius: 50%;
+  vertical-align: middle; /* Alinear verticalmente con el texto */
+}
+
+header h1 {
+  font-weight: 700;
+  color: #007bff;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle; /* Alinear verticalmente con la imagen */
+}
+
+/* Botón de Ingresar */
+header .ingresar-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.9rem; 
+  padding: 5px 10px; /* Ajustar el padding */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+header .ingresar-btn i {
+  margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
+header .ingresar-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centrar los elementos de navegación */
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+  header .holder {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

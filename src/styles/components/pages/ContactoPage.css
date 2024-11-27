@@ -1,0 +1,130 @@
+/* Estilos para la página de contacto */
+.holder {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+.columna {
+    width: 100%;
+}
+
+.intro-text {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.datos {
+    text-align: left;
+}
+
+.datos h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.datos p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.datos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.datos ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.formulario {
+    max-width: 600px; /* Ancho máximo para el formulario */
+    margin: 0 auto; /* Centrar el formulario */
+}
+
+.formulario p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.formulario p label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.formulario p input:focus,
+.formulario p textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario .btn-primary {
+    background: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrar el contenido */
+}
+
+.formulario .btn-primary i {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
+.formulario .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.centrar {
+    text-align: center;
+}
